@@ -156,7 +156,15 @@ const workExperiences = {
             companylogo: require("./assets/images/quoraLogo.png"),
             date: "May 2017 – May 2018",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            role: "Front-End Developer",
+            company: "Google",
+            companylogo: require("./assets/images/quoraLogo.png"),
+            date: "May 2017 – May 2018",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }
+
 
     ]
 };
@@ -176,25 +184,36 @@ const bigProjects = {
     subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
     projects: [
         {
-            image: require("./assets/images/saayaHealthLogo.webp"),
-            projectName: "Saayahealth",
-            projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            image: require("./assets/images/project1.png"),
+            projectName: "Software defect",
+            projectDesc: "Software defect management system",
             footerLink: [
                 {
-                    name: "Visit Website",
-                    url: "http://saayahealth.com/"
+                    name: "Visit Github",
+                    url: "https://github.com/freelaeder/jira"
                 }
                 //  you can add extra buttons here.
             ]
         },
         {
-            image: require("./assets/images/nextuLogo.webp"),
-            projectName: "Nextu",
-            projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            image: require("./assets/images/project2.png"),
+            projectName: "Pet hospital",
+            projectDesc: "At Our Clinic, Your Furry Friend Receives the Best Possible Care. ",
             footerLink: [
                 {
                     name: "Visit Website",
-                    url: "http://nextu.se/"
+                    url: "https://clinquant-melba-0adf50.netlify.app/"
+                }
+            ]
+        },
+        {
+            image: require("./assets/images/project3.png"),
+            projectName: "Personal blog",
+            projectDesc: "Develop a personal blog based on vue ",
+            footerLink: [
+                {
+                    name: "Visit Github",
+                    url: "https://gitee.com/freeslaeder/orangs"
                 }
             ]
         }
@@ -309,6 +328,7 @@ const talkSection = {
 
 // Podcast Section
 
+// 自己的录音
 const podcastSection = {
     title: emoji("Podcast 🎙️"),
     subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
@@ -320,6 +340,7 @@ const podcastSection = {
     display: false // Set false to hide this section, defaults to true
 };
 
+// 联系我
 const contactInfo = {
     title: emoji("Contact Me ☎️"),
     subtitle:
