@@ -49,10 +49,10 @@ const skillsSection = {
         emoji(
             "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
         ),
-        emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-        emoji(
-            "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-        )
+        // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+        // emoji(
+        //     "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+        // )
     ],
 
     /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -147,7 +147,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-    display: true, //Set it to true to show workExperiences Section
+    display: false, //Set it to true to show workExperiences Section
     experience: [
 
         {
@@ -302,6 +302,13 @@ const blogSection = {
             title: "How do you understand Promise in ES6? Usage scenario",
             description:
                 " Promise is an asynchronous programming solution that is more reasonable and powerful than the traditional solution (callback functions)"
+        },
+        {
+            url: "http://mail.freelaeder.cn/archives/f774ddf.html",
+            title: "The reaction of non-inductive login",
+            description:
+                "When a user login credential (token) expires, refresh_token is replaced by refresh_token.\n" +
+                "The server returns 401 status code because the login credentials of the user are invalid."
         }
     ],
     display: true // Set false to hide this section, defaults to true
